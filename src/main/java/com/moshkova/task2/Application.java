@@ -19,8 +19,8 @@ public class Application implements ApplicationRunner {
 
     @Override
     public void run(ApplicationArguments args){
-        pseudonymRepository.save(new Pseudonym("https://localhosts.mobi/8080", "/I/pushLocal", 0));
-        pseudonymRepository.save(new Pseudonym("https://localhosts/8080", "/I/pushLoca", 0));
+        pseudonymRepository.save(new Pseudonym("https://yandex.ru/", "/l/22yand", 0));
+        pseudonymRepository.save(new Pseudonym("https://www.google.ru/", "/l/223goog", 0));
         System.out.println(pseudonymRepository.findAll());
     }
 }
